@@ -7,8 +7,8 @@ all lessons taught in the Udacity [SQL for Data Analysis](https://classroom.udac
 
 - Open PostgreSQL psql shell
 - Create a new database `CREATE DATABASE parch_and_posey;`
-- Open command prompt and navigate to directory containing _pg_restore_.
-<img src="psql.JPG" height="18"/>
+- Open command prompt and navigate to directory containing _pg_restore_.  
+<img src="psql.png" height="18"/>
 - Import database `psql -h localhost -U postgres -d parch_and_posey -f path-to-sql-file.parch-and-posey.sql`
 - Explore and run queries on the database from shell or pgAdmin.
 
