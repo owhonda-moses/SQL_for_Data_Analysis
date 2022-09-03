@@ -4,11 +4,9 @@
 
 > This repo contains selected key quizzes and solutions with SQL queries for
 all lessons taught in the Udacity [SQL for Data Analysis](https://classroom.udacity.com/courses/ud198) course. The database is contained in the parch-and-posey.sql file and can be explored in your local machine using the following steps -
-
 - Open PostgreSQL psql shell
 - Create a new database `CREATE DATABASE parch_and_posey;`
-- Open command prompt and navigate to directory containing _pg_restore_.  
-<img src="psql.png" height="18"/>
+- Open command prompt and navigate to directory containing _pg_restore_.![alt text](psql.png)
 - Import database `psql -h localhost -U postgres -d parch_and_posey -f path-to-sql-file.parch-and-posey.sql`
 - Explore and run queries on the database from shell or pgAdmin.
 
