@@ -3,14 +3,15 @@
 ## INTRODUCTION
 
 > This repo contains selected key quizzes and solutions with SQL queries for
-all lessons taught in the Udacity [SQL for Data Analysis](https://classroom.udacity.com/courses/ud198) course. The dataset is contained in the parch-and-posey.sql file and can be explored in your local machine using the following steps -
+all lessons taught in the Udacity [SQL for Data Analysis](https://classroom.udacity.com/courses/ud198) course. The database is contained in the parch-and-posey.sql file and can be explored in your local machine using the following steps -
 - Open PostgreSQL psql shell
 - Create a new database `CREATE DATABASE parch_and_posey;`
-- Open command prompt and navigate to directory containing _pg_restore_ ![alt text](psql.jpg)
-- Import dataset `psql -h localhost -U postgres -d parch_and_posey -f path-to-sql-file`
-- Explore and run queries on the dataset from shell or pgAdmin.
+- Open command prompt and navigate to directory containing _pg_restore_. 
+![alt text](psql.jpg)
+- Import database `psql -h localhost -U postgres -d parch_and_posey -f path-to-sql-file.parch-and-posey.sql`
+- Explore and run queries on the database from shell or pgAdmin.
 
-Excepting the query on the sf_crime_data dataset, this Entity Relationship Diagram for the Parch and Posey dataset was used for all queries.
+Excepting the query on the sf_crime_data database, this Entity Relationship Diagram for the Parch and Posey database was used for all queries.
 ![alt text](ERD_Parch_and_Posey.png)
 
 
