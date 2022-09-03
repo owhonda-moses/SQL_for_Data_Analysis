@@ -145,7 +145,8 @@ WITH tab1 AS (
   SELECT LEFT(primary_poc, POSITION(' ' IN primary_poc) -1 ) first_name, RIGHT(primary_poc,
       LENGTH(primary_poc) - POSITION(' ' IN primary_poc)) last_name, a.name comp_name
     FROM accounts a)
-  SELECT first_name, last_name, CONCAT(first_name, last_name, '@', REPLACE(comp_name, ' ', ''), '.com') mail, CONCAT(LEFT(LOWER(first_name), 1),
+  SELECT first_name, last_name, CONCAT(first_name, last_name, '@',
+      REPLACE(comp_name, ' ', ''), '.com') mail, CONCAT(LEFT(LOWER(first_name), 1),
   RIGHT(LOWER(first_name), 1), LEFT(LOWER(last_name), 1), RIGHT(LOWER(last_name), 1), LENGTH(first_name),
   LENGTH(last_name), REPLACE(UPPER(comp_name), ' ', '')) AS password
     FROM tab1;
